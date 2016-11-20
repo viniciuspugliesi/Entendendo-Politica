@@ -1,0 +1,258 @@
+*{ padding: 0; margin-bottom: 0; }
+
+.clear{ display: block; clear: both; }
+
+/* Cores do Blockquote e Tabs*/
+	.green-quote{border-color: green; }
+	.blue-quote{border-color: blue;}
+	.yellow-quote{border-color: #FFD700;}
+	.gray-quote{border-color: #d8d8d8;}
+	.red-quote{border-color: #da3b3b;}
+	.navy-blue-quote {border-color: #00549f;}
+	
+/* Tamanho button redondo*/
+	.btn-circle-large{ width: 140px; height: 140px; line-height: 140px; text-align: center;}
+
+/* Tamanho modal*/	
+	.modal-large{ width: 90%; height: 85%}
+
+/* Tamanhos de espaços */
+	.spacebox-small{ padding: 10px 0; }
+	.spacebox-medium{ padding: 20px 0; }
+	.spacebox-large{ padding: 40px 0; }
+	.spacebox-extra_large{ padding: 80px 0; }
+
+/* Tamanhos de fontes */
+	.font-15{ font-size: 15px !important; }
+	.font-20{ font-size: 20px !important; }
+
+/* Alinhamento do texto */
+	.justify{ text-align: justify; text-indent: 4em; }
+	.justify-simple{ text-align: justify; text-indent: 2em; }
+
+/* Imagens de fundo de cada tela */
+	.imagem_principal_home{ background-image: url('/public/imagens/fundo/img_principal_home.png'); }
+	.imagem_principal_poderes{ background-image: url('/public/imagens/fundo/img_principal_poderes.jpg'); }
+	.imagem_principal_cargos{ background-image: url('/public/imagens/fundo/img_principal_cargos.png');}
+	.imagem_principal_votos{ background-image: url('/public/imagens/fundo/img_principal_votos.png'); }
+	.imagem_principal_elecoes{ background-image: url('/public/imagens/fundo/urna.jpg'); }
+	
+/* Ajustar imagem ao container*/	
+	.obj-contain{ object-fit: contain;}
+	
+	[class*='imagem_principal']{
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100%;
+	}
+	
+	.conteudo_principal{
+	    text-align: center;
+		color: #fff;
+		text-shadow: 1px 1px 3px #262626, -1px 1px 0px #262626, 0px -0.5px 1px #262626;
+		font-family: 'EB Garamond', sans-serif;
+	}
+
+nav{ background: transparent; }
+
+
+/* Circulos da HOME */
+	.group_circulo{
+		text-align: center;
+		color: #fff;
+	}
+	
+	.group_circulo a{
+	    color: #fff;
+	    text-shadow: 1px 1px #888;
+	}
+	    
+	.circulo{
+	    margin: 0 auto;
+		width: 160px;
+		height: 160px;
+		border-radius: 50%;
+		background: rgba(255, 255, 255, 0.4);
+		text-align: center;
+		line-height: 160px;
+		font-size: 20px;
+		text-shadow: 1px 1px #666;
+		cursor: pointer;
+	}
+	
+	.circulo:hover{
+		background: rgba(255, 255, 255, 0.5);
+		box-shadow: 0 0 3px 10px rgba(255, 255, 255, 0.5);
+	}
+
+.foto_pessoal img{
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+}
+
+#staggered-test li{
+	transform: translateX(0px); 
+	opacity: 1;
+}
+
+.imagem_ilustrativa img{
+	width: 200px;
+	height: 200px;
+	border-radius: 25%;
+}
+
+.sombra_imagem img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 5px solid rgba(0,0,0,0.1);
+    /*box-shadow: 3px 4px 19px 0px rgba(0,0,0,0.75);*/
+}
+.sombra_imagem1 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    /*border: 5px solid rgba(0,0,0,0.1);*/
+    box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.4);
+}
+
+blockquote.teal-quote {
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #00bfa5;
+}
+
+.ul-votos {
+	margin-left: 20px;
+}
+.img_bandeiras_estaduais{
+	border-bottom: 5px solid rgba(0,0,0,0.2);
+    padding-bottom: 12px;
+}
+.img_executivo, .img_legislativo{ margin-left: 13%; }
+.img_judiciario{ margin-left: 25%; }
+
+
+/* Conteudo Modal */
+.foto_home img { 
+	width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.social-media{
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.img-footer{
+	border-radius: 50%;
+	background: #FFFFFF;
+	font-size: 50px;
+	color: #ee6e73;
+	text-align: center;
+	margin: 5px;
+	width: 60px !important;
+	font-size: 40px !important;
+}
+
+.facebook-icon:hover {
+	background: #3b5998;
+	color: #FFFFFF;
+}
+.instagram-icon:hover {
+	background: #833ab4;
+	color: #FFFFFF;
+}
+.linkedin-icon:hover {
+	background: #0077b5;
+	color: #FFFFFF;
+}
+.youtube-icon:hover {
+	background: #cd201f;
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+/*  ______________________________________________ADMIN____________________________________________________   */
+
+.menu_admin{
+	background: lightblue;
+}
+
+
+
+
+
+/*  _____________________________________________FIM ADMIN__________________________________________________   */
+
+
+
+
+
+@media only screen and (min-width: 0){
+	.imagem_principal_todo{
+		width: auto;
+		height:auto;
+		background: rgba(0, 0, 0, 0.2);
+	}
+	.brand-logo img{
+		width: 120% !important;
+	}
+	.conteudo_principal .titulo{
+   		font-size: 50px;
+	}
+
+	.conteudo_principal .subtitulo{
+    	font-size: 25px;
+	}
+}
+
+@media only screen and (min-width: 1024px){
+	.imagem_principal_todo{
+		width: 100%;
+		height:100vh;
+		background: rgba(0, 0, 0, 0.2);
+	}
+	.brand-logo img{
+		width: 80% !important;
+	}
+	.conteudo_principal .titulo{
+   		font-size: 70px;
+	}
+
+	.conteudo_principal .subtitulo{
+    	font-size: 35px;
+	}
+}
+
+@media (max-width: 1001px){
+	.hide-mobile{
+		display: none;
+	}
+	
+	.mobile-center{
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.mobile-font-20{
+		font-size: 20px;
+	}
+	
+	.mobile-font-15{
+		font-size: 15px;
+	}
+	
+	[class*='imagem_principal']{
+		background-size: cover; 
+	}
+}
+
+.valor li{
+	list-style-type: circle;
+}
